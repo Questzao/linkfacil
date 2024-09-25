@@ -7,6 +7,7 @@ Este projeto é um site simples que permite aos usuários fazer download de arqu
 
 
 
+
 ## index.html
 
 ```html
@@ -25,14 +26,15 @@ Este projeto é um site simples que permite aos usuários fazer download de arqu
     </header>
     <main>
         <ul id="file-list">
-            <li><a href="[Nova pasta.zip](https://github.com/user-attachments/files/17133504/Nova.pasta.zip)">Download Exemplo PDF</a></li>
-            <li><a href="files/exemplo.zip" download>Download Exemplo ZIP</a></li>
+            <li><a href="files/exemplo.pdf" download>Download Exemplo PDF</a></li>
+            <li><a href="Nova pasta.zip](https://github.com/user-attachments/files/17133545/Nova.pasta.zip)" download>Download Exemplo ZIP</a></li>
             <li><a href="files/exemplo.txt" download>Download Exemplo TXT</a></li>
         </ul>
     </main>
     <script src="scripts.js"></script>
 </body>
 </html>
+
 
 body {
     font-family: Arial, sans-serif;
